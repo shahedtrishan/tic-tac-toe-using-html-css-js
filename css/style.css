@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tiro Telugu', serif;
+}
+
+body {
+    background: #98BAE7;
+}
+
+.player-select {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 15px 20px;
+    border-radius: 7px;
+    max-width: 330px;
+    width: 100%;
+    text-align: center;
+}
+
+.player-select header {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.player-select .title {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.player-select .player {
+    display: flex;
+    width: 100%;
+}
+
+.player button {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #98BAE7;
+    color: #fff;
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.player button:hover {
+    transform: scale(0.96);
+}
+
+.player button.player1 {
+    margin-right: 4px;
+}
+
+.player button.player2 {
+    margin-left: 4px;
+}
