@@ -20,6 +20,7 @@ body {
     max-width: 330px;
     width: 100%;
     text-align: center;
+    display: none;
 }
 
 .player-select header {
